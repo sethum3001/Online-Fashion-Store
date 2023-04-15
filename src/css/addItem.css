@@ -1,0 +1,188 @@
+
+body{
+    margin-top: 30px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container-1{
+    margin: 20px 0px;
+    display:flex;
+    padding: 20px;
+    border-top: solid black 1px;
+    border
+}
+
+.container-1 label{
+    display: block;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.left-side{
+    padding: 20px;
+    border-right: solid black 1px;
+    width: 50%;
+}
+
+.product-name{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+/*    border:  solid brown;*/
+}
+
+.wrapper{
+    display: flex;
+/*    border: solid grey;*/
+}
+.category{
+    width: 50%;
+    display: block;
+/*    border: solid orange;*/
+}
+
+.category-select{
+    margin: 10px 0;
+    display: block;
+}
+
+.type{
+   width: 50%;
+    display: block;
+/*    border: solid purple;*/
+}
+
+.type-select{
+    margin: 10px 0;
+    display: block;
+}
+
+.brand{
+/*    margin: 20px 0;*/
+}
+
+.brand-select{
+    margin: 10px 0;
+    display: block;
+}
+
+.description{
+    margin: 10px 0;
+    height: 90px;
+    width: 100%;
+}
+
+.middle{
+    border-right: solid black 1px;
+    width: 30%;
+    padding: 20px;
+}
+
+.add-size{
+    margin: 50px 0;
+/*    border: solid lightblue;*/
+}
+
+.product-images{
+/*    border: solid yellow;*/
+}
+
+.product-images p{
+    font-size: 12px;
+    color: dimgrey;
+}
+
+.size-toplayer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.size-bottomlayer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.right-side{
+/*    border: solid blue;*/
+    width: 20%;
+    padding: 20px;
+}
+
+.qty-input{
+    text-align: center;
+/*    border: solid pink;*/
+    max-width: 4rem;
+}
+
+.btn-grp{
+    margin: 60px 0;
+}
+
+.btn-grp input{
+    display: block;
+    height: 30px;
+    width: 160px;
+    margin: 20px 0;
+    text-align: center;
+    background-color:deepskyblue;
+    font-size: 16px;
+    border:none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-product{
+    display: block;
+    height: 30px;
+    width: 160px;
+    margin: 20px 0;
+    text-align: center;
+    background-color:deepskyblue;
+    font-size: 16px;
+    border:none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

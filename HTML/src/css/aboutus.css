@@ -1,0 +1,33 @@
+.abt-us{
+	width: 100%;
+	height: 800px;
+	position: relative;
+	background-image: url(../img/about-backimg.jpg);
+
+}
+
+.box{
+	
+
+	width: 600px;
+	height: 800px;
+	opacity: 0.8;
+	background-color: black;
+}
+
+
+.para{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	
+}
+
+.para2{
+
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	margin-top: 200px;
+
+}

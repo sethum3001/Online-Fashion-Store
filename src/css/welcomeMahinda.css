@@ -1,0 +1,49 @@
+.vl {
+  border-left: 6px solid black;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  margin-left: 3px;
+  top: 2;
+}
+
+.content a {
+  color: 6px solid black;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: 6px solid black;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  ;
+}
+
+.right {
+  right: 0;
+ 
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

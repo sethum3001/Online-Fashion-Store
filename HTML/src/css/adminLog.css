@@ -1,0 +1,60 @@
+body{
+	margin: 0px;
+	font-family:'Poppins', sans-serif;
+}
+
+
+.back_img{
+
+	width:60%;
+	height:900px; 
+	float: left;
+	background-image: url('../img/reg1.jpg');
+
+}
+
+.form_space{
+	width:40%;
+	height: 900px;
+	
+	float: left;
+}
+
+.log_form{
+	
+	margin-top: 200px;
+
+}
+
+
+
+
+input[type=text],input[type=password]{
+
+	width: 60%;
+	height: 40px;
+	box-sizing: border-box;
+	margin:15px 0 15px 0;
+	display: inline-block;
+	outline: none;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+input[type=submit],input[type=button] {
+  width: 30%;
+  background-color: #00a6e7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+input[type=submit]:hover,input[type=button]:hover{
+	background-color: #EE2A34;
+}

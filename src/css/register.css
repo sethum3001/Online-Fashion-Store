@@ -1,0 +1,56 @@
+body{
+
+	background-image:url('../img/regback.jpg');
+	font-family: 'Poppins', sans-serif;
+}
+
+.reg_overlay{
+
+	background-color: #add8e63d;
+	width: 500px;
+	height: 350px;
+	padding: 20px;
+	margin-top: 50px;
+	}
+
+.reg_overlay form{
+	
+
+
+}
+
+::placeholder{
+
+	font-family: 'Poppins', sans-serif;
+
+}
+
+input[type=email],input[type=password],input[type=text],input[type=date]{
+
+	width: 60%;
+	height: 30px;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	margin:20px 0 15px 0;
+	display: inline-block;
+	outline: none;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+input[type=submit]{
+  width: 30%;
+  background-color: #00a6e7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover{
+	background-color: #EE2A34;
+}

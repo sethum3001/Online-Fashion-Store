@@ -1,0 +1,35 @@
+body{
+
+	background-image: url(../img/back1.jpg);
+	
+}
+
+.abt-box{
+	width: 100%;
+	height: 500px;
+	
+}
+
+.cont-box-1{
+	width: 45%;
+	height: 500px;
+	
+	float: left;
+	margin: 30px 30px 35px 35px;
+	
+
+}
+
+.cont-box-2{
+	width: 45%;
+	height: 500px;
+	
+	float: left;
+	margin: 30px 30px 35px 35px;
+
+}
+
+
+.cont-box-1 p{
+	color: black;
+}

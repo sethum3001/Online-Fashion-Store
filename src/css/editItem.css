@@ -1,0 +1,93 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+
+th{
+
+
+	width: 20%;
+	color: white;
+	background-color: #000000d9;
+	padding: 10px;
+	border:2px solid white;
+
+}
+
+/*body{
+	background-image: url(../img/cart-back.jpg);
+}*/
+
+table{
+	width: 70%;
+	border-collapse: collapse;
+	
+
+}
+
+
+.cart-table{
+
+
+	width: 100%;
+	margin:20px 0px 20px 0px;
+}
+
+
+.cart-table p{
+
+font-size:12px; 
+
+}
+
+
+tr:nth-child(even){
+
+	border:none;
+	background-color: lightgrey;
+}
+
+
+td{
+	padding: 5px;
+}
+
+
+.cart-table input[type=number]{
+
+	width: 25%;
+	height: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+	outline: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+
+
+}
+
+
+.cart-table img{
+
+	width: 50px;
+	height: 70px;
+}
+
+
+
+input[type=submit]{
+  width: 100%;
+  background-color: #00a6e7;
+  color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover{
+	background-color: #EE2A34;
+}
